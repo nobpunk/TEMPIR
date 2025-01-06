@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website UMKM</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .parallax {
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #section1 {
+            background-color: rgb(19, 117, 117);
+            height: 100vh;
+        }
+        #section2 {
+            background-image: url('https://source.unsplash.com/random/1920x1080?shop');
+            height: 100vh;
+        }
+    </style>
+</head>
+<body class="font-sans">
+    <!-- Hero Section -->
+    <section id="section1" class="parallax flex items-center justify-center">
+        <div class="text-center text-white">
+            <h1 class="text-5xl font-bold">Selamat Datang di UMKM Kita</h1>
+            <p class="mt-4 text-xl">Mendukung produk lokal untuk masa depan lebih baik</p>
+            <a href="#about" class="mt-6 inline-block bg-yellow-500 text-white px-6 py-3 rounded-full">Pelajari Lebih Lanjut</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-gray-100">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Tentang Kami</h2>
+            <p class="text-gray-700">NOPA KONTOL.</p>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Produk Unggulan</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white shadow-md rounded-lg p-4">
+                    <img src="https://source.unsplash.com/random/400x300?product1" alt="Produk 1" class="w-full rounded-md">
+                    <h3 class="mt-4 font-semibold">Produk 1</h3>
+                    <p class="text-gray-600">Deskripsi singkat tentang produk.</p>
+                </div>
+                <div class="bg-white shadow-md rounded-lg p-4">
+                    <img src="https://source.unsplash.com/random/400x300?product2" alt="Produk 2" class="w-full rounded-md">
+                    <h3 class="mt-4 font-semibold">Produk 2</h3>
+                    <p class="text-gray-600">Deskripsi singkat tentang produk.</p>
+                </div>
+                <div class="bg-white shadow-md rounded-lg p-4">
+                    <img src="https://source.unsplash.com/random/400x300?product3" alt="Produk 3" class="w-full rounded-md">
+                    <h3 class="mt-4 font-semibold">Produk 3</h3>
+                    <p class="text-gray-600">Deskripsi singkat tentang produk.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Parallax Section -->
+    <section id="section2" class="parallax flex items-center justify-center">
+        <div class="text-center text-white">
+            <h2 class="text-4xl font-bold">Dukung UMKM Lokal</h2>
+            <p class="mt-4">Bersama-sama membangun masa depan yang lebih cerah.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gray-100">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Hubungi Kami</h2>
+            <p class="text-gray-700">Kami siap membantu dan mendengar masukan Anda.</p>
+            <a href="mailto:info@umkm.com" class="mt-6 inline-block bg-green-500 text-white px-6 py-3 rounded-full">Email Kami</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-gray-800 text-white text-center">
+        <p>&copy; 2024 UMKM Kita. Semua Hak Dilindungi.</p>
+    </footer>
+</body>
+</html>
